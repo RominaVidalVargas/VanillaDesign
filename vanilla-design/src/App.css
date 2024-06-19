@@ -47,7 +47,7 @@
 .imgFondo{
   background-size: cover;
   z-index: -1;
- /*  opacity: 0.6; */
+  opacity: 0.5;
 }
 .text1{
   position: absolute;
@@ -55,8 +55,10 @@
   font-size: 16px;
   display: flex;
   align-content: center;
-  margin: 25px;
   justify-content: center;
+  font-weight: 200;
+  text-transform:uppercase;
+
 }
 .text2{
   position: absolute;
@@ -65,10 +67,16 @@
   font-weight: 900;
   display: flex;
   align-content: center;
+  margin-top:   250px;
+  width:800px;
+  text-align: center;
+
 }
 .box{
  display: flex;
- flex-direction: column;
+ flex-direction: column-reverse;
+ justify-content: center;
+ align-items: center
 }
 
 .buttonSend{
@@ -78,4 +86,47 @@
   padding: 5px 20px ;
   border-radius: 30%;
   position: absolute;
+  margin-top: 500px;
+  font-weight: 700;
+  padding: 10px 25px;
+  font-size: 20px;
+  
+}
+
+.items{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 60px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px ;
+  padding: 20px;
+  box-shadow: 2px 3px 5px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 10%;
+  width: 200px;
+}
+
+h1{
+  color: rgba(255, 147, 244, 1);
+  font-size: 40px;
+  font-weight: 700;
+  margin: 2px;
+
+}
+p{
+  display: flex;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 100;
+
+
+}
+
+.imgItem{
+  width: 70px;
 }
